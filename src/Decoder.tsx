@@ -11,7 +11,7 @@ export const Decoder = () => {
     useEffect(() => {
         dispatch(deckActions.setUpNewDeck(createNewDeck()));
         dispatch(deckActions.openNextCard());
-    }, []);
+    }, [dispatch]);
 
     return (<div className="panel"><Cards/></div>);
 }

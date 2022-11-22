@@ -1,7 +1,6 @@
-import React, {useEffect,} from 'react';
+import React from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 
-import {createNewDeck} from "./deck";
 import {Card} from "./Card";
 import * as deckSelectors from './redux/selectors';
 import {deckActions} from './redux/deckSlice';
